@@ -21,6 +21,9 @@ angular.module('camo', []).controller('TrackerController', function() {
                 start: tracker.CreateModel.start,
                 end: tracker.CreateModel.end
             });
+            tracker.CreateModel.title = '';
+            tracker.CreateModel.start = 0;
+            tracker.CreateModel.end = 250;
         }
     };
 

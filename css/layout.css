@@ -3,15 +3,31 @@
 }
 
 #main {
-    margin-top: 65px;
+    margin-top: 60px;
 }
 
+.camos {
+    min-width: none;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Camo Card */
+
 .camo {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .camo input {
-    margin-top: 10px;
+    margin-top: 5px;
+}
+
+.camo .card-body {
+    padding: 5px;
+}
+.camo .card-body .card-title {
+    margin-bottom: 5px;
 }
 
 .delete {
